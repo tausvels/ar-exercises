@@ -10,4 +10,4 @@ puts "----------"
 
 @store2.update(annual_revenue: 1270000)
 
-p @store2
+# p @store2
