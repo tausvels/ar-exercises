@@ -21,6 +21,6 @@ end
 @women_store_less_money=Store.where(womens_apparel:true, mens_apparel: false).where("annual_revenue < 1000000")
 
 @women_store_less_money.each do |store|
-  puts "The women's #{@women_store_less_money.length > 1 ? "stores are" : "store is"}: #{store.name}"
+  # puts "The women's #{@women_store_less_money.length > 1 ? "stores are" : "store is"}: #{store.name}"
 end
 
